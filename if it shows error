@@ -1,0 +1,11 @@
+in your terminal 
+install some packages like
+
+npm i react-accessible-accordion
+
+# ignore the warnings
+
+npm i react-select-async-paginate --force  
+# as it was used with the older versions
+
+npm install --save react-speech-recognition
