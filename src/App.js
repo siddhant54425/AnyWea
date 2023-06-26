@@ -12,7 +12,7 @@ function App() {
   const [voiceText, setSearch] = useState("");
 
   const handleOnSearchChange = (searchData) => {
-    
+
     if (searchData && searchData.value) {
     const [lat, lon] = searchData.value.split(" ");
 
@@ -40,7 +40,7 @@ function App() {
   
 
   return (
-    <div className="container">
+    <div className="container" >
       <Search onSearchChange={handleOnSearchChange} voiceText = {voiceText} />
       <Voicesearch onSearchChange={handleVoiceSearchChange} />
       {currentWeather && <CurrentWeather data = {currentWeather}/>}
